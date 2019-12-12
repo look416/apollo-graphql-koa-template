@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "@koa/router": "^8.0.5",
+    "apollo-server-koa": "^2.9.13",
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6"
+  }
+}
